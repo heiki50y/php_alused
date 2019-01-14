@@ -13,7 +13,7 @@ $users = array("Bret", "Sharon", "Betty", "Harry" );
 $users[] = "Sally";
 */
 
-
+/*
 $character = array(
     name=> "bob",
     ocupation=> "superhero",
@@ -22,3 +22,24 @@ $character = array(
 );
 print $character[age];
 print $character[name];
+
+*/
+
+
+$characters = array(
+    array ( name=> "bob",
+        occupation=> "superhero",
+        age=>30,
+        speciality=> "x-ray vision" ),
+    array ( name=> "sally",
+        occupation=> "superhero",
+        age=>24,
+        speciality=> "superhuman strength" ),
+    array (name=> "mary",
+        occupation=> "arch villian",
+        age=>63,
+        speciality=> "nanotechnology")
+);
+
+print $characters[0] [occupation];
+
