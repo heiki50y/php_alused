@@ -58,3 +58,13 @@ echo '<br>';
 echo substr($tekst, 4, -13);	//thinking men
 echo '<br>';
 echo substr($tekst, -8, 7);
+
+echo '<br>';
+echo '<br>';
+
+print_r(str_word_count($tekst,1));
+echo '<br>';
+$sona = str_word_count($tekst, 1);
+echo $sona[2];
+echo '<br>';
+print_r(str_word_count($tekst, 2));
