@@ -100,3 +100,11 @@ $asendus = 'emme';
 $otsitav_algus = 4;
 $otsitav_pikkus = 4;
 echo substr_replace($tekst, $asendus, $otsitav_algus, $otsitav_pikkus);
+
+echo '<br>';
+
+
+$tekst = 'Musta lehma saba musta lehma taga, valge lehma saba valge lehma taga';
+$otsi = 'lehm';
+$asenda = 'koer';
+echo str_replace($otsi, $asenda, $tekst);
