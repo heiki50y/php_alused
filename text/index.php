@@ -108,3 +108,10 @@ $tekst = 'Musta lehma saba musta lehma taga, valge lehma saba valge lehma taga';
 $otsi = 'lehm';
 $asenda = 'koer';
 echo str_replace($otsi, $asenda, $tekst);
+
+echo '<br>';
+
+$tekst = 'Musta lehma saba musta lehma taga, valge lehma saba valge lehma taga';
+$otsi = array('lehm', 'saba', 'taga');
+$asenda = array('koer', 'sarv', 'ees');
+echo str_replace($otsi, $asenda, $tekst);
