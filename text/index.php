@@ -68,3 +68,24 @@ $sona = str_word_count($tekst, 1);
 echo $sona[2];
 echo '<br>';
 print_r(str_word_count($tekst, 2));
+
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+$tekst = 'Happiness in intelligent people is the rarest thing I know.';
+$otsitav = 'in';
+$leia_tekstist = strpos($tekst, $otsitav, 0);
+echo $leia_tekstist;
+echo '<br>';
+$otsitav = 'Saaremaa';
+$leia_tekstist = strpos($tekst, $otsitav, 6);
+echo '<br>';
+$tekst = 'Happiness in intelligent people is the rarest thing I know.';
+$otsitav = 'in';
+$nihe = 0;
+while($leia_tekstist = strpos($tekst, $otsitav, $nihe)){	//4 10 13 48
+    echo $leia_tekstist.'<br>';
+    $nihe = $leia_tekstist+strlen($otsitav);
+}
