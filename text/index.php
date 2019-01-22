@@ -89,3 +89,14 @@ while($leia_tekstist = strpos($tekst, $otsitav, $nihe)){	//4 10 13 48
     echo $leia_tekstist.'<br>';
     $nihe = $leia_tekstist+strlen($otsitav);
 }
+
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+$tekst = 'Pai papa, pane paadile punased purjed peale';
+$asendus = 'emme';
+$otsitav_algus = 4;
+$otsitav_pikkus = 4;
+echo substr_replace($tekst, $asendus, $otsitav_algus, $otsitav_pikkus);
