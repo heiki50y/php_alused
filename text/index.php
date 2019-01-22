@@ -11,3 +11,7 @@ $tekst = 'Life is about ingnoring the drama.';
     echo strtolower($tekst);
     echo '<br>';
     echo strtoupper($tekst);
+    echo '<br>';
+
+$tekst = 'Life is about ingnoring the drama.';
+    echo ucfirst(strtolower($tekst));
