@@ -15,3 +15,10 @@ $tekst = 'Life is about ingnoring the drama.';
 
 $tekst = 'Life is about ingnoring the drama.';
     echo ucfirst(strtolower($tekst));
+    echo '<br>';
+
+
+$tekst = 'Experience is the teacher of fools';
+echo strlen($tekst);
+echo '<br>';
+echo str_word_count($tekst);
