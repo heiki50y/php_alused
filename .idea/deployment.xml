@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="http://heikikotsar.ikt.khk.ee">
+    <serverData>
+      <paths name="http://heikikotsar.ikt.khk.ee">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/" local="$PROJECT_DIR$" web="/php_alused" />
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
