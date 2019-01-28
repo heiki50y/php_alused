@@ -16,7 +16,7 @@ $iktConn = connect_db(DBHOST, DBUSER, DBPASS, DBNAME);
 $sql = 'UPDATE user SET last_name="Ebatavaline" WHERE user_id=1';
 $res = query($sql, $iktConn);
 
-$sql = 'SELECT * FROM user';
+$sql = 'SELECT * FROM users';
 $users = getData($sql, $iktConn);
 
 echo '<pre>';
