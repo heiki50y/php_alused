@@ -32,3 +32,4 @@ if(isset($_SESSION['user'])){
 } else {
     $loginForm = htmlFromFile('login');
     echo $loginForm;
+}
