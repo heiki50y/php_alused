@@ -14,7 +14,7 @@ echo $username.' '.$password;
 // loome ühendus andmebaasiga
 $ikt = connect_db(DBHOST, DBUSER, DBPASS, DBNAME);
 // küsime kasutaja andmete olemasolu andmebaasis
-$sql = 'SELECT * FROM users WHERE username="'.$username.'" AND password="'.md5($password).'"';
+$sql = 'SELECT * FROM USER WHERE username="'.$username.'" AND password="'.md5($password).'"';
 $users = getData($sql, $ikt);
 
 // loome kasutaja sessiioon, kui ta andmebaasis olemas
