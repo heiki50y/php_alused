@@ -43,3 +43,5 @@ $characters = array(
 
 print $characters[0] [occupation];
 
+/* Commit töötab kodus */
+
