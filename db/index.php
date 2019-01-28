@@ -24,3 +24,7 @@ print_r($iktConn);
 echo '<pre>';
 
 echo 'Tere, '.$users[0]['first_name'].' '.$users[0]['last_name'].'<br>';
+
+require_once 'fnk.php';
+$loginForm = htmlFromFile('login');
+echo $loginForm;
